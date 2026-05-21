@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Ronda — Mates & Accesorios</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400;1,700&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!--HEADER-->
+  <header>
+    <div class="header-inner">
+      <div class="logo">
+        <img src="./img/logo.png" alt="La Ronda — Mates y Tradición" class="logo-img" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#inicio" class="nav-link">Inicio</a></li>
+          <li><a href="#productos" class="nav-link">Productos</a></li>
+          <li><a href="#resenas" class="nav-link">Reseñas</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!--  Carrusel  -->
+    <section id="inicio" class="hero-nuevo">
+
+      <div class="carrusel">
+        <input type="radio" name="slide" id="s1" checked />
+        <input type="radio" name="slide" id="s2" />
+        <input type="radio" name="slide" id="s3" />
+
+        <div class="slides">
+
+          <div class="slide">
+            <img src="./img/foto1.png" alt="Mate de calabaza" />
+            <div class="slide-overlay">
+              <p class="slide-frase"> "Donde hay un mate, hay hogar."</p>
+            </div>
+          </div>
+
+          <div class="slide">
+            <img src="./img/foto2.png" alt="Mate de algarrobo" />
+            <div class="slide-overlay">
+              <p class="slide-frase">"Artesanal de raíz, único como cada ronda."</p>
+            </div>
+          </div>
+
+          <div class="slide">
+            <img src="./img/foto3.png" alt="Yerba mate" />
+            <div class="slide-overlay">
+              <p class="slide-frase">"Desde siempre, el ritual que nos une."</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Puntos indicadores / en un futuro quiero agregar flechas -->
+        <div class="carrusel-dots">
+          <label for="s1" class="dot"></label>
+          <label for="s2" class="dot"></label>
+          <label for="s3" class="dot"></label>
+        </div>
+
+      </div>
+    </section>
+
+    <!--FRANJA VERDE MATE -->
+    <div class="franja-verde">
+      <div class="franja-inner">
+        <span>Productos 100% artesanales</span>
+        <span>Envíos a todo el país</span>
+        <span>Atención personalizada</span>
+        <span>Yerba seleccionada</span>
+      </div>
+    </div>
+
+    <!--  PRODUCTOS  -->
+    <section id="productos" class="productos">
+      <div class="section-header">
+        <span class="section-label">Lo que ofrecemos</span>
+        <h2>Nuestros Productos</h2>
+        <p>Seleccionados con cuidado, pensados para cada ronda.</p>
+      </div>
+
+      <div class="cards-flex">
+
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/mate1.png" alt="Mate de calabaza" />
+          </div>
+          <div class="card-body">
+            <span class="card-tag">Clásico</span>
+            <h3>Mate de Calabaza</h3>
+            <p>El original. Curado a mano, con virola de alpaca. Para los puristas.</p>
+            <span class="card-price">$12.500</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/mate2.png" alt="Mate de madera" />
+          </div>
+          <div class="card-body">
+            <span class="card-tag">Artesanal</span>
+            <h3>Mate de Algarrobo</h3>
+            <p>Torneado a mano en madera de algarrobo. Único, sin dos iguales.</p>
+            <span class="card-price">$18.000</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/bombillas.png" alt="Bombilla de alpaca" />
+          </div>
+          <div class="card-body">
+            <span class="card-tag">Accesorio</span>
+            <h3>Bombillas metalicas</h3>
+            <p>Punta cebadora con filtro de precisión. No pierde un yerbal.</p>
+            <span class="card-price">$6.200</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/bolso.png" alt="Bolso matero" />
+          </div>
+          <div class="card-body">
+            <span class="card-tag">Bolso Matero</span>
+            <h3>Bolso Matero</h3>
+            <p>Bolso matero artesanal de diseño clásico y elegante, confeccionado en ecocuero color suela con detalles funcionales para llevar todo lo necesario.</p>
+            <span class="card-price">$30.500</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/termo.png" alt="Termo Stanley" />
+          </div>
+          <div class="card-body">
+            <span class="card-tag">Termo</span>
+            <h3>Termo Artesanal 1L</h3>
+            <p>Acero inoxidable con funda de cuero cosida a mano. Dura todo el día.</p>
+            <span class="card-price">$24.000</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/setmatero.png" alt="Set matero completo" />
+          </div>
+          <div class="card-body">
+            <span class="card-tag">Combo</span>
+            <h3>Set Matero Completo</h3>
+            <p>Mate + bombilla + termo + yerba 500g. Todo para empezar la ronda.</p>
+            <span class="card-price">$38.500</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--  MULTIMEDIA  -->
+    <section class="multimedia">
+      <div class="section-header light">
+        <h2>El Arte de Cebar</h2>
+        <p>Mirá cómo preparar el mate perfecto, paso a paso.</p>
+      </div>
+      <div class="video-wrapper">
+        <iframe width="454" height="807"
+          src="https://www.youtube.com/embed/se1-NanEDeQ"
+          title="Los Sonidos del Mate 🧉 #mate #motivacion #yerbamate #asmr" 
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!--  RESEÑAS -->
+    <section id="resenas" class="resenas">
+      <div class="section-header">
+        <h2>Reseñas</h2>
+        <p>Clientes de toda Argentina que ya son parte de la ronda.</p>
+      </div>
+
+      <div class="grid-resenas">
+
+        <div class="resena">
+          <p class="resena-texto">"El mate de algarrobo es una obra de arte. Lo tengo hace 6 meses y cada ronda es un placer. La madera agarró un sabor increíble."</p>
+          <div class="resena-autor">
+            <span class="resena-avatar">V</span>
+            <div>
+              <strong>Valentina R.</strong>
+              <span>Rosario, Santa Fe</span>
+            </div>
+          </div>
+          <div class="estrellas">★★★★★</div>
+        </div>
+
+        <div class="resena">
+          <p class="resena-texto">"Compré el set completo para regalarle a mi viejo y quedó encantado. La calidad del termo es impresionante, la funda de cuero es de primera."</p>
+          <div class="resena-autor">
+            <span class="resena-avatar">L</span>
+            <div>
+              <strong>Lucas M.</strong>
+              <span>Buenos Aires, GBA</span>
+            </div>
+          </div>
+          <div class="estrellas">★★★★★</div>
+        </div>
+
+        <div class="resena">
+          <p class="resena-texto">"La yerba serrana es diferente a todo lo que tomé. Se nota la cura, el sabor dura mucho más que cualquier yerba de supermercado."</p>
+          <div class="resena-autor">
+            <span class="resena-avatar">C</span>
+            <div>
+              <strong>Camila T.</strong>
+              <span>Córdoba Capital</span>
+            </div>
+          </div>
+          <div class="estrellas">★★★★☆</div>
+        </div>
+
+        <div class="resena">
+          <p class="resena-texto">"Atención personalizada desde el primer mensaje. Me ayudaron a elegir el mate ideal para curar y me dieron todos los consejos. 10/10."</p>
+          <div class="resena-autor">
+            <span class="resena-avatar">M</span>
+            <div>
+              <strong>Martín P.</strong>
+              <span>Mendoza</span>
+            </div>
+          </div>
+          <div class="estrellas">★★★★★</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--CONTACTO  -->
+    <section id="contacto" class="contacto">
+      <div class="section-header light">
+        <h2>Contacto</h2>
+        <p>¿Tenés una consulta o querés hacer un pedido especial? Mandanos un mensaje.</p>
+      </div>
+
+      <form action="https://formspree.io/f/mkoejakj" method="POST" class="form-contacto">
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" placeholder="tucorreo@email.com" required />
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" placeholder="¿En qué te podemos ayudar?" required></textarea>
+        </div>
+        <button type="submit" class="btn-primary">Enviar mensaje</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!--FOOTER-->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="./img/logo.png" alt="La Ronda" class="footer-logo-img" />
+      </div>
+      <p class="footer-copy">© 2025 La Ronda — Mates &amp; Accesorios Artesanales. Hecho con amor en Argentina.</p>
+      <div class="footer-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#resenas">Reseñas</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
